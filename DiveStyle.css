@@ -1,0 +1,444 @@
+body { 
+    opacity: 0; 
+    transition: opacity 3s;
+    background-color: #E5E5E5;
+   
+  
+}  
+@keyframes fadeInAnimation { 
+    50% { 
+        opacity: 1; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+/* text on the top image */
+
+h1 {
+  font-size: 22px;
+  position: absolute;
+  top: 0px;
+  right: 1;
+  width: 1000px;
+  padding: 200px;
+  color: #F7F8FD;
+  font-style: "roboto";
+}
+b {
+  font-size: 16px;
+}
+  h4 {
+     color: rgb(0, 0, 0);
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     font-family: Verdana;
+     font-size: 25px;  
+}
+.header-unpin{
+  display:none;
+  transition: all 0.5s ease-in;
+  
+}
+.header-pin{
+  display:block;
+  transition: all 0.5s ease-in;
+}
+header {
+  list-style-type: none;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Verdana;
+  transition: all 0.5s ease-in;
+  opacity: 1;
+  font-family: "roboto";
+  background-color: R: 2 G: 29 B: 56; 
+  font-size: 16px;
+  z-index: 99;
+  padding: none;
+  right: 0px;
+  top: 0px 
+
+  
+} 
+
+ header.scroll {
+  background-color:#F7F8FD;
+  transition: all 0.5s ease-in;
+  border-bottom: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  font-size: 12px;
+  font-size: .75rem;
+  line-height: 1;
+  z-index: 99;
+  padding: none;
+  
+} 
+.companyLogo {
+  position: absolute;
+  top: 12px;
+  bottom: 30px;
+  right: 800px;
+  width: 460px;
+  height: 10px; 
+  
+}
+    .home {
+      position: absolute;
+      top: 14px;
+      left:730px;
+      width: 850px;
+      height: 10px; 
+      color: gray;
+      /* letter-spacing: .045em; */
+      
+    }
+       .contact {
+         position: absolute;
+         top: 14px;
+         left: 820px;
+         width: 650px;
+         height: 10px; 
+         color: gray;
+       }
+       
+       .download {
+        position: absolute;
+        top: 14px;
+        left: 1050px;
+        width: 1020px;
+        height: 100px; 
+        color: gray;
+       }
+      .active {
+        position: absolute;
+        top: 14px;
+        left: 950px;
+        width: 100px;
+        height: 10px; 
+        color: gray;
+      }
+.languageJp {
+    position: absolute;
+      top: 14px;
+      right: 1px;
+      width: 47px;
+      height: 10px;
+      color: grey;
+    }
+    .languageEn {
+      position: absolute;
+        top: 14px;
+        right: 60px;
+        width: 47px;
+        height: 10px;
+        color: grey;
+      }
+ /* positions of the buttons */ 
+ 
+ li a {
+   display: block;
+   color: rgb(10, 0, 0);
+   text-align: left;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ .parallax {
+  /* The image used */
+  position: relative;
+  background-image: url("https://i.ibb.co/gm5zK9k/tokyo-2086596-1920-1.png");
+  height: 610px;
+  width: 1400px;
+  padding: none;
+  /* min-height: 800px; */
+  top: 0px;
+  right: 10px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
+}
+ .site-footer {
+  position: flex;
+  background: #F7F8FD;
+  font-family: "roboto";
+  bottom: 10px;
+  position: absolute;
+  padding: none;
+  left: 1px;
+ 
+
+ 
+
+}
+#footer-content {
+  position: flex;
+  background: #F7F8FD;
+  left: 100px;
+}
+/* /* background of the top/header */
+
+.header h2 {
+  text-align: center;
+} 
+ /* Set a specific color for each brand */
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+	margin: 0;
+	padding: 5px;
+}
+.socialbtnsbtnsbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+.socialbtns .fa {
+	color: #FFF;
+	text-shadow: 1px 1px 0px #686868,
+			1px -1px 0px #686868,
+			-1px 1px 0px #686868,
+			-1px -1px 0px #686868;
+	-webkit-text-shadow: 1px 1px 0px #686868,
+			1px -1px 0px #686868,
+			-1px 1px 0px #686868,
+			-1px -1px 0px #686868;
+	-moz-text-shadow: 1px 1px 0px #686868,
+			1px -1px 0px #686868,
+			-1px 1px 0px #686868,
+			-1px -1px 0px #686868;
+	-o-text-shadow: 1px 1px 0px #686868,
+			1px -1px 0px #686868,
+			-1px 1px 0px #686868,
+			-1px -1px 0px #686868;
+	transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-webkit-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+}
+.socialbtns .fa:hover {
+	color: #686868;
+	text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-webkit-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-moz-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-o-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	transition: all ease 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+}
+ /* /* positioning of the website  */
+ .content {
+   max-width: 1800px;
+   margin: auto;
+   padding: 210px;
+   color: #686868;
+   font-family: "roboto";
+   height: 800px;
+
+ }
+ 
+  /* loading logo  */ */
+ #myDiv {
+   display: none;
+   text-align: center;
+ }   
+ /* scroll arrow */ 
+ .arrow {
+     position: fixed;
+     bottom: 5%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+ .arrow span{
+     display: block;
+     width: 25px;
+     height: 25px;
+     border-bottom: 5px solid #9DB0FC;
+     border-right: 5px solid #FD95D4;
+     transform: rotate(45deg);
+     margin: -10px;
+     animation: animate 3s infinite;
+ }
+ .arrow span:nth-child(2){
+     animation-delay: -0.2s;
+ }
+ .arrow span:nth-child(3){
+     animation-delay: -0.4s;
+ }
+ @keyframes animate {
+     0%{
+         opacity: 0;
+         transform: rotate(45deg) translate(-20px,-20px);
+     }
+     50%{
+         opacity: 1;
+     }
+     100%{
+         opacity: 0;
+         transform: rotate(45deg) translate(20px,20px);
+     }
+ } 
+ .row {
+   border-bottom: solid gray;
+
+ } 
+ .section2{
+   background-color: #F7F8FD;
+   top: 500px;
+   width: 1370px;
+   height: 250px;
+}
+html {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 200vw;
+  min-height: 200vh;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.nav-up {
+  top: -100px;
+  transition: all 0.6s ease-in;
+  margin: 0 auto;
+  display: none;
+  
+  
+}
+.nav-down{
+  transition: all 0.6s ease-in;
+  margin: 0 auto;   
+}
+
+#logo-bm {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes logo-bm{
+  0%{
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+  50%{
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+  100%{
+    display: none;
+    opacity: 0;
+    transform: rotateX(0deg);
+  }
+}
+
+#logo-bm{
+    animation-name: logo-bm;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.appSignUp {
+  position: absolute;
+  left: 505px;
+  top: 2415px;
+  color: gray;
+  font-family: "roboto";
+
+
+}
+.downloadSignUp {
+  position: relative;
+  width: 700px;
+  height: 400px;
+}
+.aboutBorder {
+position: relative;
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 955px;
+height: 68px;
+}
+.borderSide {
+position: absolute;
+height: 68px;
+width: 15px;
+top: 820px;
+background: linear-gradient(180deg, #FF9ECD 0%, #CDA9E6 50.52%, #9EB4FF 100%);
+border-radius: 10px 0px 0px 10px;
+z-index: auto;
+}
+  h2 {
+  position: absolute;
+    left: 50px;
+  }
+
+  .teamBorder {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 955px;
+    height: 68px;
+    }
+      h3 {
+      position: absolute;
+        left: 50px;
+      }
+      .downloadBorder {
+        position: relative;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        width: 955px;
+        height: 68px;
+        }
+        
+          h4 {
+          position: absolute;
+            left: 50px;
+          }
+          .contactBorder {
+            position: relative;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            width: 955px;
+            height: 68px;
+            font-size: larger;
+            }
+              h5 {
+              position: absolute;
+                left: 50px;
+              }
